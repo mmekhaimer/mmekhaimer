@@ -6,7 +6,7 @@
   <img src="https://komarev.com/ghpvc/?username=mmekhaimer&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
   <a href="https://sites.google.com/view/mekhaimer/home"><img src="https://img.shields.io/badge/Website-mekhaimer-0e75b6?style=flat&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/mmekhaimer"><img src="https://img.shields.io/badge/LinkedIn-mmekhaimer-0e75b6?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:mmekhaimer@sjf.edu"><img src="https://img.shields.io/badge/Email-mmekhaimer%40sjf.edu-0e75b6?style=flat&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:mmekhaimer@sjf.edu"><img src="https://img.shields.io/badge/Email-mohamed.mekhaimer%40uvm.edu-0e75b6?style=flat&logo=gmail&logoColor=white" /></a>
 </p>
 
 I'm an empirical finance researcher working at the intersection of **corporate governance, corporate finance, and market microstructure** — and, increasingly, the machine learning and NLP methods that let us measure things (disclosure obfuscation, executive behavior, textual tone) that used to be hard to quantify. This profile hosts the reproducible-research side of that work: data pipelines, replication code, and interactive analytical tools built for research and in the classroom.
