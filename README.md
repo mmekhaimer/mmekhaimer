@@ -6,58 +6,70 @@
   <img src="https://komarev.com/ghpvc/?username=mmekhaimer&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
   <a href="https://sites.google.com/view/mekhaimer/home"><img src="https://img.shields.io/badge/Website-mekhaimer-0e75b6?style=flat&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/mmekhaimer"><img src="https://img.shields.io/badge/LinkedIn-mmekhaimer-0e75b6?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:mmekhaimer@sjf.edu"><img src="https://img.shields.io/badge/Email-mohamed.mekhaimer%40uvm.edu-0e75b6?style=flat&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:mohamed.mekhaimer@uvm.edu"><img src="https://img.shields.io/badge/Email-mohamed.mekhaimer%40uvm.edu-0e75b6?style=flat&logo=gmail&logoColor=white" /></a>
 </p>
-
-I'm an empirical finance researcher working at the intersection of **corporate governance, corporate finance, and market microstructure** — and, increasingly, the machine learning and NLP methods that let us measure things (disclosure obfuscation, executive behavior, textual tone) that used to be hard to quantify. This profile hosts the reproducible-research side of that work: data pipelines, replication code, and interactive analytical tools built for research and in the classroom.
 
 ---
 
 ## 👤 About Me
 
-- 🎓 **Corporate Finance & Governance Researcher** — subordinate-executive incentives, internal governance, disclosure, and market microstructure
-- 📊 **Business Analytics** — MSc in Business Analytics (Purdue, expected 2026), built on a Ph.D. in Finance
-- 🤖 **Financial ML & NLP** — applying textual analysis and machine learning to disclosure, political risk, and executive-behavior questions
-- 🧮 **Reproducible empirical work** — WRDS/Compustat/CRSP/ExecuComp pipelines in Stata, SAS, and Python
-- 📈 **Data visualization & interactive tools** — dashboards and apps for both research and teaching
-
-I like building things that make empirical finance more transparent and more teachable: Python research tools, analytics dashboards, educational apps, and open-source utilities that other researchers and students can actually run.
+I'm an Associate Professor of Finance and the Elizabeth and David Daigle Professor of Finance at the Grossman School of Business, University of Vermont. My academic background spans a Ph.D. in Finance from the University of Memphis and an MSc in Finance from the University of Plymouth, and I'm currently completing an MSc in Business Analytics at Purdue University, which has pushed my empirical work further into machine learning and data science. My research examines corporate governance, liquidity, the corporate informational environment, and political uncertainty, published in outlets including *The Accounting Review*, *Journal of Corporate Finance*, and *Journal of Banking and Finance*. Alongside this research agenda, I've held department-chair and curriculum-leadership roles, which shaped how I think about turning empirical methods into things students and collaborators can actually use. What I bring to a project is a combination of rigorous empirical finance training, hands-on Python/Stata pipeline-building skills, and a track record of translating both into research output and classroom tools.
 
 ---
 
-## 🔬 Research Interests
+## 🎓 Education
 
-<table>
-<tr>
-<td width="33%" valign="top">
+| Degree | Institution | Year |
+|--------|-------------|------|
+| MSc, Business Analytics (MSBA) | Purdue University | 2026 (Expected) |
+| Ph.D., Business Administration (Finance) | University of Memphis | 2014 |
+| MSc, Finance (with distinction) | University of Plymouth | 2007 |
+| Bachelor of Commerce (with distinction) | Mansoura University | 2005 |
 
-**🏛️ Corporate Governance**
-Internal governance, subordinate executives, board and manager incentives
+---
 
-**📉 Market Microstructure**
-Liquidity commonality, trading facilities, market design
+## 🛠️ Skills / Tech Stack
 
-</td>
-<td width="33%" valign="top">
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![Stata](https://img.shields.io/badge/Stata-1A5276?style=flat-square&logo=stata&logoColor=white)
+![SAS](https://img.shields.io/badge/SAS-1E90FF?style=flat-square&logo=sas&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-**🗣️ Disclosure & Textual Analysis**
-Narrative disclosure, political-risk obfuscation, NLP on corporate text
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-2E8B57?style=flat-square&logo=lightgbm&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![WRDS](https://img.shields.io/badge/WRDS-002855?style=flat-square)
 
-**🌍 International Finance**
-Cross-country liquidity, emerging-market anomalies
+---
 
-</td>
-<td width="33%" valign="top">
+## 💼 Projects
 
-**🤖 Financial Machine Learning**
-Applying ML/NLP to governance and disclosure questions
+### CEO Overconfidence — Transformer NLP on Earnings Calls
+Built a transformer-based sentence-embedding pipeline to score CEO overconfidence (Overplacement, Overestimation, Overprecision) from conference-call transcripts, exported to Stata-compatible format for panel analysis.
+**Skills:** Python · Transformers/HuggingFace · NLP · Stata
+[![View Project](https://img.shields.io/badge/View_Project-1a1a2e?style=for-the-badge)](YOUR_LINK)
 
-**📊 Business Analytics**
-Applied analytics for corporate finance decision-making
+### WRDS Firm-Quarter Controls Pipeline
+Converted a legacy SAS pipeline into a modular Stata workflow constructing firm-quarter financial controls (MTB, EarnVol, RetVol, AGE, NBSEG/NGSEG, opacity, special items) from Compustat/CRSP CIZ-format data, matched via gvkey/CUSIP/permno.
+**Skills:** Stata · SAS · WRDS (Compustat, CRSP)
+[![View Project](https://img.shields.io/badge/View_Project-1a1a2e?style=for-the-badge)](YOUR_LINK)
 
-</td>
-</tr>
-</table>
+### IBM Workforce Segmentation
+Applied K-Means clustering (k=3) to IBM HR analytics data to segment employees for a business-analytics teaching case, deployed as an interactive dashboard.
+**Skills:** Python · scikit-learn · Dash · Clustering
+[![View Project](https://img.shields.io/badge/View_Project-1a1a2e?style=for-the-badge)](YOUR_LINK)
+
+### NYC Airbnb Price Prediction — Multiple Linear Regression
+Built an interactive MLR application on NYC Airbnb listing data as a case-study assignment, letting students explore how listing features drive price.
+**Skills:** Python · scikit-learn · Gradio
+[![View Project](https://img.shields.io/badge/View_Project-1a1a2e?style=for-the-badge)](YOUR_LINK)
+
+*(Links marked `YOUR_LINK` are placeholders — swap in each repo or demo URL once published.)*
 
 ---
 
@@ -81,8 +93,6 @@ Applied analytics for corporate finance decision-making
 
 ## 🎓 Teaching
 
-I teach across corporate finance, investments, and — most recently — analytics and data storytelling for MBA students.
-
 **Focus areas:** Corporate Finance · Financial Modeling · Investments · Financial Markets · International Finance · Business Analytics · Data Visualization
 
 **Representative courses:**
@@ -92,41 +102,6 @@ I teach across corporate finance, investments, and — most recently — analyti
 - Investments · Intermediate & Introductory Corporate Finance
 - Financial Markets and Institutions
 - Investment Theory and Portfolio Management — MBA/Ph.D.
-
----
-
-## 🛠️ Tech Stack
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
-  <img src="https://img.shields.io/badge/Stata-1A5276?style=for-the-badge&logo=stata&logoColor=white" />
-  <img src="https://img.shields.io/badge/SAS-1E90FF?style=for-the-badge&logo=sas&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git%20%26%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</p>
-<p>
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/LightGBM-2E8B57?style=for-the-badge&logo=lightgbm&logoColor=white" />
-  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
-  <img src="https://img.shields.io/badge/WRDS-002855?style=for-the-badge" />
-</p>
-
----
-
-## 🧠 Currently Learning / Exploring
-
-`Large Language Models` · `AI Agents` · `Financial NLP` · `Deep Learning` · `Graph Neural Networks` · `Causal Machine Learning` · `Retrieval-Augmented Generation` · `Explainable AI`
-
----
-
-## 🤝 Open to Collaboration On
-
-Corporate finance & governance empirical research · Financial NLP & textual analysis · Machine learning applications in accounting/finance · Business analytics · Interactive research/teaching dashboards · Reproducible-research tooling
-
-If you're a fellow researcher, a PhD student looking for a project, or an industry team working on financial ML — feel free to reach out.
 
 ---
 
@@ -145,21 +120,15 @@ If you're a fellow researcher, a PhD student looking for a project, or an indust
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=mmekhaimer&hide_border=true&theme=minimal" />
 </p>
 
-<!--
-Snake contribution animation — add this repo's generated snake.svg via the
-platane/snk GitHub Action, then reference it here:
-<img src="https://raw.githubusercontent.com/mmekhaimer/mmekhaimer/output/github-contribution-grid-snake.svg" />
--->
-
 ---
 
 ## 📬 Contact
 
 <p>
-  <a href="https://sites.google.com/view/mekhaimer/home"><img src="https://img.shields.io/badge/Website-mekhaimer-0e75b6?style=flat&logo=googlechrome&logoColor=white" /></a>
+  <a href="mailto:YOUR_PURDUE_EMAIL@purdue.edu"><img src="https://img.shields.io/badge/Purdue_Email-Contact-CFB53B?style=flat&logo=gmail&logoColor=black" /></a>
   <a href="https://www.linkedin.com/in/mmekhaimer"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:mmekhaimer@sjf.edu"><img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=flat&logo=gmail&logoColor=white" /></a>
+  <a href="https://sites.google.com/view/mekhaimer/home"><img src="https://img.shields.io/badge/Website-mekhaimer-0e75b6?style=flat&logo=googlechrome&logoColor=white" /></a>
+  <a href="mailto:mohamed.mekhaimer@uvm.edu"><img src="https://img.shields.io/badge/UVM_Email-Contact-006633?style=flat&logo=gmail&logoColor=white" /></a>
 </p>
 
 *Grossman School of Business, University of Vermont*
-
