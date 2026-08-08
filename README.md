@@ -130,5 +130,3 @@ Built an interactive MLR application on NYC Airbnb listing data as a case-study 
   <a href="https://sites.google.com/view/mekhaimer/home"><img src="https://img.shields.io/badge/Website-mekhaimer-0e75b6?style=flat&logo=googlechrome&logoColor=white" /></a>
   <a href="mailto:mohamed.mekhaimer@uvm.edu"><img src="https://img.shields.io/badge/UVM_Email-Contact-006633?style=flat&logo=gmail&logoColor=white" /></a>
 </p>
-
-*Grossman School of Business, University of Vermont*
